@@ -1,12 +1,9 @@
 
 
-const counterValue = 0
-const decrement = document.querySelector("button");
+let counterValue = 0
+const decrement = document.querySelector("[data-action=increment]");
 
 decrement.addEventListener('click', () => { 
-for (let i = 0; i < array.length; i++) {
-    counterValue += array[i];
-   console.log(array);
-}
+console.log('click');
 });
 
