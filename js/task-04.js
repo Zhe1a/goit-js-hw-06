@@ -1,4 +1,4 @@
-
+'use strict';
 const decrement = document.querySelector("[data-action=decrement]");
 const incremen = document.querySelector("[data-action=increment]");
 
